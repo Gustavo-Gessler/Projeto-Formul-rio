@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Editar Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Editar Formulário</h1>
+    </header>
+    <h2 id="editH2">Abaixo você terá o mesmo formulário, mas serve para fazer a edição com suas novas informações:</h2>
+    <div class="container-form">
+        <form id="editForm">
+            <label id="EditName" for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label id="EditEmail" for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label id="EditAge" for="age">Idade:</label>
+            <input type="number" id="age" name="age" required>
+
+            <button type="button" id="EditButton" onclick="saveEditedForm()">Salvar Edições</button>
+        </form>
+    </div>
+
+    <footer>
+        <a href="https://www.instagram.com/codegreen2910/"><img src="img/instagram_logo.png" id="instagram_logo" alt="instagram_logo"></a>
+        <img src="img/whatsapp_logo.png" id="whatsapp_logo" alt="whatsapp_logo">
+        <a href="https://github.com/Gustavo-Gessler"><img src="img/github_logo.png" id="github_logo" alt="github_logo"></a>
+        <span id="copy">Gustavo &copy;2023</span>
+    </footer>
+    <script src="editForm.js"></script>
+</body>
+</html>

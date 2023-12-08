@@ -1,0 +1,337 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    background-color: #e7e0e0cb;
+}
+
+header{
+    height: 80px;
+    background-color: #ff0000;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 220px;
+    width: 180px;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+
+#h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#userForm{
+    height: 200px;
+    width: 180px;
+    display: block;
+    position: relative;
+}
+
+#age{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 40px;
+    left: 0;
+}
+
+#IdadeForm{
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    font-weight: bold;
+}
+
+#email{
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    border-radius: 5px;
+}
+
+#emailForm{
+   position: absolute;
+   bottom: 110px;
+   left: 0;
+   font-weight: bold;
+}
+
+#Enviar{
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    left: 0;
+    bottom: -20px;
+    background-color: #ff0000;
+    color: #f0f0f0;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#Enviar:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+#Name-Form{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    font-weight: bold;
+}
+
+#name{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    border-radius: 5px;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#FormPreenchido{
+    border: 3px solid #fff;
+    background-color: #fff;
+    color: #1b1717;
+    border-radius: 10px;
+    font-weight: bold;
+    position: absolute;
+    padding: 5px;
+    right: 40px;
+    top: 40px;
+    transition: 0.5s;
+}
+
+#FormPreenchido:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    color: #f0f0f0;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#instagram_logo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 44%;
+    top: 10px;
+    transition: 0.5s;
+}
+
+#instagram_logo:hover{
+    transform: scale(1.3);
+}
+
+#whatsapp_logo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 48.5%;
+    top: 10px;
+    transition: 0.5s;
+}
+
+#whatsapp_logo:hover{
+    transform: scale(1.3);
+}
+
+#copy{
+    position: absolute;
+    top: 15px;
+    text-align: center;
+    left: 10px;
+}
+
+#github_logo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 53%;
+    top: 10px;
+    transition: 0.5s;
+}
+
+#github_logo:hover{
+    transform: scale(1.3);
+}
+
+/* Adiciona um pouco de espaço entre as linhas */
+#filledFormsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estiliza cada item da lista */
+#filledFormsList li {
+    width: calc(33.33% - 20px); /* Calcula a largura com 20px de espaço entre os itens */
+    background-color: #080808e0;
+    padding: 15px;
+    box-sizing: border-box;
+    list-style: none;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#editH2{
+    margin: auto;
+    text-align: center;
+    max-width: 24em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Estilo para as informações do usuário dentro de cada item */
+#filledFormsList li h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#filledFormsList li p {
+    margin: 5px 0;
+}
+
+#VoltarAoFormulario{
+    border: 3px solid #fff;
+    background-color: #fff;
+    color: #1b1717;
+    border-radius: 10px;
+    font-weight: bold;
+    position: absolute;
+    padding: 5px;
+    right: 40px;
+    top: 40px;
+    transition: 0.5s;
+}
+
+#VoltarAoFormulario:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+
+/* Estiliza o botão de exclusão */
+.deleteButton {
+    background-color: #ff3333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+
+.editButton {
+    background-color: #ff3333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px 0;
+    transition: 0.5s;
+}
+
+.editButton:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    margin-left: 5px;
+}
+
+#editForm{
+    height: 200px;
+    width: 180px;
+    display: block;
+    position: relative;
+}
+
+#EditEmail{
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+    font-weight: bold;
+}
+
+#EditName{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-weight: bold;
+}
+
+#EditAge{
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    font-weight: bold;
+}
+
+#EditButton{
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    left: 0;
+    bottom: -20px;
+    background-color: #ff0000;
+    color: #f0f0f0;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#EditButton:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.deleteButton:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    margin-right: 5px;
+}

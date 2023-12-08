@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário TypeScript</title>
+</head>
+<body>
+    <header>
+        <h1>Formulários</h1>
+        <button id="FormPreenchido" type="button" onclick="SeeForms()">Formulários Preenchidos</button>
+    </header>
+    <h2 id="h2">Abaixo tem um formulário para digitar suas principais informações:</h2>
+    <div class="container-form">
+        <form id="userForm">
+            <label id="Name-Form" for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label id="emailForm" for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label id="IdadeForm" for="age">Idade:</label>
+            <input type="number" id="age" name="age" required>
+
+            <button id="Enviar" type="button" onclick="submitForm()">Enviar</button>
+        </form>
+    </div>
+
+    <div id="output" class="container hidden">
+        <h2>Informações do Usuário:</h2>
+        <p><strong>Nome:</strong> <span id="outputName"></span></p>
+        <p><strong>E-mail:</strong> <span id="outputEmail"></span></p>
+        <p><strong>Idade:</strong> <span id="outputAge"></span></p>
+    </div>
+
+    <footer>
+        <a href="https://www.instagram.com/codegreen2910/"><img src="img/instagram_logo.png" id="instagram_logo" alt="instagram_logo"></a>
+        <img src="img/whatsapp_logo.png" id="whatsapp_logo" alt="whatsapp_logo">
+        <a href="https://github.com/Gustavo-Gessler"><img src="img/github_logo.png" id="github_logo" alt="github_logo"></a>
+        <span id="copy">Gustavo &copy;2023</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
